@@ -23,7 +23,6 @@ def emp_signup():
     else:
         return render_template('signup.html')
 
-
 @app.route('/employees', methods = ['GET','POST'])
 def show_employees():
     emp = Employee()
